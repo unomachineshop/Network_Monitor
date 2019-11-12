@@ -20,11 +20,4 @@ else
 	# Restart the wireless interface
 	ifdown --force eth0
 	ifup eth0
-	OUT=$?
-	if [ $OUT -eq 0 ] 
-	then
-		echo "$(date "+%m %d %Y %T") : Network is now connected!" >> $LOGFILE
-	else
-		echo "$(date "+%m %d %Y %T") : Failed to reset connection" >> $LOGFILE
-	fi
 fi
