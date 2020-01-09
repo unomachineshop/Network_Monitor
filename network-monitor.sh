@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOGFILE="/home/pi/network-monitor.log"
+LOGFILE="/home/pi/Network_Monitor/network-monitor.log"
 
 # Server to ping
 SERVER=8.8.8.8
